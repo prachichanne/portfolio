@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 // import Header from './Header'
 import '../mycss.css';
 
-import c1 from '../img/prachi.jpeg';
+// import c1 from '../img/prachi.jpeg';
 
 export default class Resume extends Component {
     render() {
