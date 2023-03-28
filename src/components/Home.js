@@ -1,44 +1,38 @@
 import React, { Component } from 'react'
 import '../mycss.css';
-
-import c1 from '../img/prachi.jpeg';
+import '../fade-in.css';
+import '../design.css';
+// import c1 from '../img/prachi.jpeg';
 // import Header from './Header';
 // import Footer from './Footer';
 
 export default class home extends Component {
 
-  
+
 
     render() {
         return (
 
-            <div className='final'>
-                {/* <div className='header'>
-                    <Header />
-                </div> */}
- 
-                <div style={{ display: "flex" }} className='main'>
-                    <div style={{ backgroundColor: "#fff", marginLeft: "10%", marginRight: "1%", marginTop: "3%", marginBottom: "3%", padding: "90px" }} className='intro'>
-                        <h1>Welcome</h1>
-                        <p >Dr. Suyogkumar Taralkar is a Chemical Engineer with M.Tech and PhD in Chemical Engineering. Dr. Suyogkumar is having wide experience in teaching, administration and research.
-                            Dr. Suyogkumar has completed various research projects and currently working on two research projects funded by various government and non government agencies.
-                            He handled various administrative positions at an academic institutions related to academics, research, accreditation and quality assurance.
-                        </p>
+            <div class="dark" style={{ height: "590px" }}>
+                <div className='final' style={{marginTop:"50px",marginBottom:"60px"}}>
+                    <section >
+                       
+                            <div className='main1'  >
+                            <div className='main2'>
+                                <div style={{ marginLeft: "15%", marginRight: "15%", marginTop: "10%", padding: "30px", textAlign: "center", }} className='intro'>
 
+                                    <h1>Hey ! I am Prachi.</h1>
+                                    <p>  A <a style={{ color: "#C3073F" }}>creative</a>, <a style={{ color: "#66FCF1" }}>tech enthusiast</a>, and also a <a style={{ color: "#FFE400" }}>foodie</a>.
+                                        {/* Working hard to make my dreams come true and make a difference. */}
+                                    </p>
 
-                    </div>
-                    <div style={{ width: "170%", marginLeft: "1%", marginRight: "10%", marginTop: "5%", marginBottom: "5%", padding: "9px", textAlign: "center" }} class='container'>
+                                </div>
 
-                        <img class="image" alt='okok' style={{ width: "70%", borderRadius: "30px" }} src={c1}></img>
-                        <div class="middle">
-                            <div class="text">Hey! I am Prachi</div>
+                            </div>
                         </div>
-                    </div>
-                </div> 
 
-                {/* <div className='footer'>
-                    <Footer />
-                </div> */}
+                    </section>
+                </div>
             </div>
         )
     }

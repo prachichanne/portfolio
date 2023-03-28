@@ -1,12 +1,87 @@
+
+.projects .cert{
+  margin-top: 2%;
+  margin-left: 11%;
+  margin-right: 11%;
+  /* background-color: #240090; */
+  padding: 5px;
+  padding-left: 1%;
+  font-family: myFirstFont;
+  letter-spacing: 1px;
+  /* border-bottom: solid #240090; */
+}
+
+.cert2{
+  margin-top: 3%;
+  margin-left: 11%;
+  margin-right: 11%;
+  padding: 5px;
+  padding-left: 1%;
+  letter-spacing: 1px;
+  text-align: right;
+  width: 100%;
+  /* border-bottom: solid #240090; */
+}
+.row a{
+
+  text-align: center;
+
+}
+
+.row {
+  margin-left: 10%;
+  margin-top: 3%;
+	margin-right: 10%;
+  text-align: center;
+	/* height: 650px; */
+}
+
+.card {
+  background-color: #282828;
+  color: white;
+  height: 150px;
+}
+
+.card p{
+  background-color: #282828;
+  color: white;
+}
+
+
+.card:hover{
+ border:#240090 solid;
+  
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url("data/Oswald-Medium.ttf");
+}
+@font-face {
+  font-family: myh1Font;
+  src: url("data/DancingScript-Bold.ttf");
+}
+
+.intro h1{
+  font-family: myFirstFont;
+  font-size: 60px;
+  color: #3500D3;
+
+}
+p {
+  font-family: myFirstFont;
+  color: #3500D3;
+  font-size: 40px;
+}
+
 #lab_social_icon_footer {
     padding: 40px 0;
-    background-color: #dedede;
+    
   }
 
 
 
   #lab_social_icon_footer a {
-    color: #05386B;
+    width: 60px;
   }
   
   #lab_social_icon_footer .social:hover {
@@ -45,15 +120,7 @@
     color: #f39c12;
   }
 
-/* .nav-item a{
-  color: #fff;
-  font: 1em sans-serif;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-weight: 400;
-  font-size: large;
-  padding: 20px;
 
-} */
 
 
 #link{
@@ -62,13 +129,17 @@
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: 400;
   font-size: large;
-  padding: 20px;
+  padding: 15px;
+  margin-top: 2px;
+
 }
 
-#link :hover{
-  color: #05386B;
+
+li :hover{
+  background-color: #282828;
   font-size: large;
-  border: solid;
+
+  margin-top: 2px;
 
 }
 
@@ -103,3 +174,36 @@
   font-size: 16px;
   padding: 16px 32px;
 }
+
+.pdf-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.pdf {
+  max-width: 150%;
+  max-height: 100%;
+}
+
+.accordion{
+    margin-top: 3%;
+    margin-left: 5%;
+    height: 650px;
+}
+
+
+.footer{
+  margin-left: 10%;
+  margin-top: 3%;
+	margin-right: 10%;
+  height: 650px;
+}
+
+.icons , .contact_form{
+  width: 100%;
+}
+
+
