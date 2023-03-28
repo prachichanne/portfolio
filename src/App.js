@@ -18,7 +18,7 @@ function App() {
         <div class="dark" > 
         <div style={{ padding: "20px", paddingRight: "60px" }} className='nav-bar'>
           <ul class="nav justify-content-end">
-            <Link to="/" style={{fontFamily:"myh1Font",fontSize:"29px",marginRight:"710px"}}>Prachi Channe</Link>
+            <Link to="/portfolio" style={{fontFamily:"myh1Font",fontSize:"29px",marginRight:"710px"}}>Prachi Channe</Link>
             <li class="nav-item">
               {/* <a  class="nav-link active" href="/">Home</a> */}
               <Link id='link'  to="/about">Education</Link>
@@ -46,7 +46,7 @@ function App() {
         
         <Routes>
 
-          <Route exact path="/" element={<Home />}> </Route>
+          <Route exact path="/portfolio" element={<Home />}> </Route>
             <Route exact path="/about" element={<About />} > </Route>
             <Route exact path="/internship" element={<Internship />} > </Route>
             <Route exact path="/achievement" element={<Achievement />} > </Route>
