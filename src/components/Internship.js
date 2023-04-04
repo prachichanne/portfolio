@@ -2,17 +2,21 @@ import React, { Component } from 'react'
 import '../mycss.css';
 import '../fade-in.css';
 import '../myscss.scss';
+import c1 from '../img/techsword.png';
+import c2 from '../img/code.png';
+
+import c3 from '../img/WorqHat.png';
 
 export default class Internship extends Component {
   render() {
     return (
       <div>
-        <section class="dark">
-          <div class="container py-4">  <br /><br />
+        <section class="dark" style={{width:"100%"}}>
+          <div class="container-in py-4">  <br /><br />
             <div className='main'>
               <article class="postcard dark blue">
                 <a class="postcard__img_link" href="#">
-                  <img class="postcard__img" src="https://picsum.photos/1000/1000" alt="Image Title" />
+                  <img class="postcard__img" src={c1} alt="Image Title" style={{height:"60%",paddingTop:"10%"}} />
                 </a>
                 <div class="postcard__text">
                   <h1 class="postcard__title blue"><a href="#">Techsword Solutions</a></h1>
@@ -35,7 +39,7 @@ export default class Internship extends Component {
               </article>
               <article class="postcard dark red">
                 <a class="postcard__img_link" href="#">
-                  <img class="postcard__img" src="https://picsum.photos/501/500" alt="Image Title" />
+                  <img class="postcard__img" src={c2} alt="Image Title" style={{width:"50%",height:"50%",paddingTop:"10%"}} />
                 </a>
                 <div class="postcard__text">
                   <h1 class="postcard__title red"><a href="#">Codekul Pvt Ltd</a></h1>
@@ -56,7 +60,7 @@ export default class Internship extends Component {
               </article>
               <article  class="postcard dark green">
                 <a class="postcard__img_link" href="#">
-                  <img class="postcard__img" src="https://picsum.photos/501/500" alt="Image Title" />
+                  <img class="postcard__img" src={c3} alt="Image Title" style={{height:"40%",paddingTop:"10%"}} ></img>
                 </a>
                 <div class="postcard__text">
                   <h1 class="postcard__title red"><a href="#">Worqhat</a></h1>

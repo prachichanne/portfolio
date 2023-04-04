@@ -1,53 +1,83 @@
 import React, { Component } from 'react';
-import c1 from '../img/prachi.jpeg';
+import '../myscss.scss';
+
+import c1 from '../img/bookday.png';
+import c2 from '../img/presentation_certi.jpeg';
+
+import c3 from '../img/zensar.png';
+import c4 from '../img/chess.png';
+
+import c5 from '../img/quiz1.png';
+import c6 from '../img/prakruti.png';
+
+import c7 from '../img/ganesh.jpeg';
+import c8 from '../img/books.jpeg';
+import c9 from '../img/leaf.jpeg';
+
 export default class Gallery extends Component {
     render() {
         return (
-            <div>
+            <div class="dark">
                 <div class="row">
-                    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                        <img
-                            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" >
+                        <img 
+                            src={c1}
                             class="w-100 shadow-1-strong rounded mb-4"
-                            alt="Boat on Calm Water"
-                        />
+                            alt="Boat on Calm Water"/>
 
                         <img
-                            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+                            src={c2}
                             class="w-100 shadow-1-strong rounded mb-4"
-                            alt="Wintry Mountain Landscape"
-                        />
+                            alt="Wintry Mountain Landscape"/>
+
+                       <img
+                            src={c7}
+                            class="w-100 shadow-1-strong rounded mb-4"
+                            alt="Wintry Mountain Landscape"/> 
                     </div>
+                     
+                   
 
                     <div class="col-lg-4 mb-4 mb-lg-0">
                         <img
-                            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                            src={c3}
                             class="w-100 shadow-1-strong rounded mb-4"
-                            alt="Mountains in the Clouds"
-                        />
-
+                            alt="Mountains in the Clouds"/>
+                            
                         <img
-                            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                            src={c6}
                             class="w-100 shadow-1-strong rounded mb-4"
-                            alt="Boat on Calm Water"
-                        />
+                            alt="Yosemite National Park"/>
+ 
+                        <img
+                            src={c8}
+                            class="w-100 shadow-1-strong rounded mb-4"
+                            alt="Wintry Mountain Landscape"/> 
+               
+                            
                     </div>
+
 
                     <div class="col-lg-4 mb-4 mb-lg-0">
                         <img
-                            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                            src={c5}
                             class="w-100 shadow-1-strong rounded mb-4"
-                            alt="Waves at Sea"
-                        />
+                            alt="Waves at Sea"/>
 
                         <img
-                            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                            src={c6}
                             class="w-100 shadow-1-strong rounded mb-4"
-                            alt="Yosemite National Park"
-                        />
+                            alt="Yosemite National Park"/>
+                        
+                         <img
+                            src={c9}
+                            class="w-100 shadow-1-strong rounded mb-4"
+                            alt="Wintry Mountain Landscape"/> 
+
                     </div>
+                
+                </div >
                 </div>
-            </div>
         )
     }
 }

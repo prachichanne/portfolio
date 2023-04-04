@@ -14,11 +14,11 @@ function App() {
   return (
 
     <Router>
-      <div className='App'>
+      <div className='App' >
         <div class="dark" > 
-        <div style={{ padding: "20px", paddingRight: "60px" }} className='nav-bar'>
+        <div style={{ padding: "20px", paddingRight: "40px"}} className='nav-bar'>
           <ul class="nav justify-content-end">
-            <Link to="/portfolio" style={{fontFamily:"myh1Font",fontSize:"29px",marginRight:"710px"}}>Prachi Channe</Link>
+            <Link to="/portfolio" style={{fontFamily:"myh1Font",fontSize:"29px",marginRight:"600px"}}>Prachi Channe</Link>
             <li class="nav-item">
               {/* <a  class="nav-link active" href="/">Home</a> */}
               <Link id='link'  to="/about">Education</Link>
@@ -29,11 +29,11 @@ function App() {
             </li>
             <li class="nav-item">
               {/* <a  class="nav-link" href="#">Achievement</a> */}
-              <Link id='link' to="/achievement">Achievement</Link>
+              <Link id='link' to="/achievement">Co-Curricular</Link>
             </li>
             <li class="nav-item">
               {/* <a class="nav-link" href="#media" >Media</a> */}
-              <Link id='link' to="/gallery">Gallery</Link>
+              <Link id='link' to="/gallery">Extra-Curricular</Link>
             </li>
             <li class="nav-item">
               {/* <a class="nav-link" href="#media" >Media</a> */}

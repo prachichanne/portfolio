@@ -5,11 +5,12 @@ import c1 from '../img/prachi.jpeg';
 import '../mycss.css';
 import Certificates from './Certificates';
 import Project from './Project';
+import Training from './Training';
 
 export default class Achievement extends Component {
     render() {
         return (
-            <div className='dark' style={{height:"650px"}}>
+            <div className='dark' style={{height:"900px"}}>
                 {/* <div class="projects">
                     <h2>PROJECTS</h2>
                     <div class="row">
@@ -54,6 +55,7 @@ export default class Achievement extends Component {
                 </div> */}
                 <Project />
                 <Certificates />
+                <Training />
             </div>
         )
     }
